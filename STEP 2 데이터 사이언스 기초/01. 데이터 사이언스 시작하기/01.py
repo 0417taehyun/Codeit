@@ -9,7 +9,7 @@ def is_palindrome(word: str) -> bool:
         start, end = start+1, end-1
         
     return True
-
+    
 
 if __name__ == "__main__":
     cases: list[dict[str, dict[str, str] | bool]] = [
